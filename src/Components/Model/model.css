@@ -1,0 +1,28 @@
+.model-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(189, 189, 189, 0.9);
+}
+
+.model-container {
+  position: fixed;
+  width: 60%;
+  background-color: slateblue;
+  top: 20%;
+  left: 20%;
+  height: 60%;
+  border-style: solid;
+  border-radius: 20%;
+}
+
+.model-container > form {
+  margin: 50px;
+  display: flex;
+}
+
+.model-container > form > div {
+  margin: 10px;
+}
